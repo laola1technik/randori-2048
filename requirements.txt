@@ -1,0 +1,32 @@
+Game 2048
+
+4x4 Grid
+Tile
+
+Rules
+    - Bei jeder Bewegung werden neue Zellen generiert
+        - Position per Zufall
+        - Wert per Zufall
+    - Bei Curser Input werden alle Zellen in die jeweilige Richtung geschoben.
+    - Benachbarte gleiche Zahlen werden bei Bewegung in die gleiche Richtung zusammengeführt.
+    - Jede Zahl hat eine eindeutige Farbe.
+    - Zahlen: 2 4 8 16 32 64 128 256 512 1024 2048
+    - Grid 4x4
+    - Wenn keine Zelle mehr frei und keine zelle gemerged werden kann -> Game Over mit score.
+    - Score = Summe aller Zellen
+
+---
+Example Site
+
+https://play2048.co/
+---
+Elements
+
+Tile Component mit Farbe und Wert
+Grid Component
+Model mit Zellen
+Score
+---
+Test-List
+*new Game starts -> im Grid stehen zwei Zellen mit den Werten zwei und vier - Score ist sechs
+*Cursor geht nach rechts Zelle ist ganz rechts
