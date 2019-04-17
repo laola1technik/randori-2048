@@ -1,5 +1,7 @@
 # randori-2048
 
+This is the 2048 with [Mocha](https://mochajs.org/), done in a Randori-styled [Coding Dojo](http://codingdojo.org/WhatIsCodingDojo/).
+
 ## Project setup
 ```
 yarn install
@@ -36,4 +38,5 @@ yarn run test:unit
 ```
 
 ### Customize configuration
+
 See [Configuration Reference](https://cli.vuejs.org/config/).
